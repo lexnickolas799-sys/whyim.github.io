@@ -3,24 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ad Showcase</title>
+    <title>Ad Playground</title>
     <style>
-        body { background-color: #f0f0f0; font-family: sans-serif; text-align: center; padding-top: 50px; }
-        .container { background-color: white; padding: 20px; border-radius: 8px; display: inline-block; }
+        body { 
+            background-color: #f0f0f0; 
+            font-family: sans-serif; 
+            text-align: center; 
+            padding-top: 50px; 
+        }
+        .container { 
+            background-color: white; 
+            padding: 20px; 
+            border-radius: 8px; 
+            display: inline-block; 
+        }
     </style>
+
+    <!-- Google AdSense Verification / Library -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4490871062656550"
+        crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
         <h1>Ad Playground</h1>
         <p>The Ghost Clicker's workshop.</p>
-        
-        <!-- 
-        ================================================================
-        PASTE YOUR ADMOB AD CODE (the <script> tag) right here. 
-        This will make the ad appear on the page.
-        ================================================================
-        -->
 
+        <!-- Sample Ad Unit (Banner) -->
+        <ins class="adsbygoogle"
+             style="display:block; margin: 20px auto;"
+             data-ad-client="ca-pub-4490871062656550"
+             data-ad-slot="6598061618"
+             data-ad-format="auto"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+
+        <!-- You can duplicate the above <ins> block to add more ad units if needed -->
     </div>
 </body>
 </html>
