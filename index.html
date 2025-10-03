@@ -16,10 +16,14 @@
             padding: 20px; 
             border-radius: 8px; 
             display: inline-block; 
+            max-width: 600px;
+        }
+        .ad-slot { 
+            margin: 20px 0; 
         }
     </style>
 
-    <!-- Google AdSense Verification / Library -->
+    <!-- Google AdSense Library -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4490871062656550"
         crossorigin="anonymous"></script>
 </head>
@@ -28,17 +32,45 @@
         <h1>Ad Playground</h1>
         <p>The Ghost Clicker's workshop.</p>
 
-        <!-- Sample Ad Unit (Banner) -->
-        <ins class="adsbygoogle"
-             style="display:block; margin: 20px auto;"
-             data-ad-client="ca-pub-4490871062656550"
-             data-ad-slot="6598061618"
-             data-ad-format="auto"></ins>
-        <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
+        <!-- Top Ad Unit -->
+        <div class="ad-slot">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-4490871062656550"
+                 data-ad-slot="6598061618"
+                 data-ad-format="auto"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
 
-        <!-- You can duplicate the above <ins> block to add more ad units if needed -->
+        <p>Here you can add content, text, images, or more sections.</p>
+
+        <!-- Middle Ad Unit -->
+        <div class="ad-slot">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-4490871062656550"
+                 data-ad-slot="1005494597"
+                 data-ad-format="auto"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+
+        <p>More content goes here. This is a good place to engage users.</p>
+
+        <!-- Bottom Ad Unit -->
+        <div class="ad-slot">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-4490871062656550"
+                 data-ad-slot="7347541666"
+                 data-ad-format="auto"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
     </div>
 </body>
 </html>
